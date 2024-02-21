@@ -1,0 +1,11 @@
+framework module BuiltTomPackage {
+  umbrella header "BuiltTomPackage.h"
+  export *
+
+  module * { export * }
+}
+
+module BuiltTomPackage.Swift {
+  header "BuiltTomPackage-Swift.h"
+  requires objc
+}

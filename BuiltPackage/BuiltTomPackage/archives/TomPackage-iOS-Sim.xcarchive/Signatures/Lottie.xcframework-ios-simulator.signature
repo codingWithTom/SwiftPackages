@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleIndentifier</key>
+	<string>Lottie</string>
+	<key>cdhashes</key>
+	<array>
+		<data>
+		gZcFK9D+uAHDQ78DT0nM8eoEtIg=
+		</data>
+		<data>
+		xRfxmFdIdTV/+dAhPlS96brReWY=
+		</data>
+	</array>
+	<key>certificates</key>
+	<array>
+		<data>
+		MIIDxjCCAq6gAwIBAgIBATANBgkqhkiG9w0BAQsFADCBgDETMBEGA1UEAwwK
+		TG90dGllIGlPUzEPMA0GA1UECgwGQWlyYm5iMQswCQYDVQQIDAJDQTELMAkG
+		A1UEBhMCVVMxFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xJjAkBgkqhkiG9w0B
+		CQEWF2NhbC5zdGVwaGVuc0BhaXJibmIuY29tMB4XDTIzMTIxNDIzMDczMVoX
+		DTM5MDIyODIzMDczMVowgYAxEzARBgNVBAMMCkxvdHRpZSBpT1MxDzANBgNV
+		BAoMBkFpcmJuYjELMAkGA1UECAwCQ0ExCzAJBgNVBAYTAlVTMRYwFAYDVQQH
+		DA1TYW4gRnJhbmNpc2NvMSYwJAYJKoZIhvcNAQkBFhdjYWwuc3RlcGhlbnNA
+		YWlyYm5iLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALUT
+		MrsPnFiax7fVj+0VgfugRcTfalt27eVq1Fa8IIaFjBbS30QLDZejeRBg7i5c
+		dVM5//blKSXWEGdUECyBFpD3QYoIVWBcI8uBd4aJh7CL0Cz9FAiJkLSr5zrR
+		cb9sHAyssvy7pyxaTJX3C9DmC13cVhefe9qDkDLPUpuBLKiJflDsgq3wzRSt
+		BMGe5B+21pnRs899WzJaONirMw5Y4XDqVRAgK18HHTQjvRF0p54qb0D7miWz
+		a1TIDMSVuEiiycXJGARRxBf3+5EdirQc7dW8vugtinH00spTKwexhoRgDpxW
+		WwLvfsgQE7Z/5TuTTi8EZ6dV/VjzGXN+xVxPdd0CAwEAAaNJMEcwDgYDVR0P
+		AQH/BAQDAgeAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMDMB0GA1UdDgQWBBSc
+		fyDfLp3ND/UU4RgWasRGnqDh0TANBgkqhkiG9w0BAQsFAAOCAQEAlihUB+a3
+		yfP/1/cidRxD0oSyz7ChjVeBoDH1GBi7hzeFRc0ojzo7vL++uW0sQE2YU3iY
+		vSpxjdhM1fHuaKyxXQsdX3h7kAooneBVoRu9fMP2S1Ek/igu4r0ZDqheQXac
+		dEUc8nZMlcG1qo6eOd7ojn/En7wqEmGX71wX71aVFyrlC7quHeqxaOQD1yKk
+		QarPi15T7zxHRYUP/1NfJuLPAdJMIDtFeweU758v1KNhuni3e+EV4d/ORhrh
+		RQ53qTLr3TMGyj71cNlgmuAIWzp7QEfnsuLs/jcQ63OBWw1aaGnMJgWrtMdG
+		oBOIi9XTWFCGpuuIubyFmYx239eY8APHlQ==
+		</data>
+	</array>
+	<key>isSecureTimestamp</key>
+	<false/>
+	<key>metadata</key>
+	<dict>
+		<key>library</key>
+		<string>Lottie.framework</string>
+		<key>platform</key>
+		<string>ios</string>
+		<key>platformVariant</key>
+		<string>simulator</string>
+	</dict>
+	<key>signatureIdentifier</key>
+	<string>892F1B43047B50538F2F46EAD92900DD3D4811F3582178C061A5FB20F111CB26</string>
+	<key>signatureType</key>
+	<string>SelfSigned</string>
+	<key>signed</key>
+	<true/>
+	<key>source</key>
+	<string>embedded</string>
+</dict>
+</plist>

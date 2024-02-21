@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Get the current working directory
+current_dir=$(pwd)
+
+xcodebuild archive -project BuiltTomPackage.xcodeproj -scheme BuiltTomPackage -destination "generic/platform=iOS" -archivePath "archives/TomPackage-iOS" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES 
+
+xcodebuild archive -project BuiltTomPackage.xcodeproj -scheme BuiltTomPackage -destination "generic/platform=iOS Simulator" -archivePath "archives/TomPackage-iOS-Sim" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+xcodebuild -create-xcframework -framework $current_dir/archives/TomPackage-iOS-Sim.xcarchive/Products/Library/Frameworks/BuiltTomPackage.framework -framework $current_dir/archives/TomPackage-iOS.xcarchive/Products/Library/Frameworks/BuiltTomPackage.framework -output BuiltTomPackage.xcframework
