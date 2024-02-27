@@ -15,6 +15,8 @@
 		406CA8912B7AF748001A6E34 /* Lottie.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406CA8902B7AF748001A6E34 /* Lottie.xcframework */; };
 		406CA8952B7AF9D7001A6E34 /* Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 406CA8942B7AF9D7001A6E34 /* Animation.json */; };
 		406CA89F2B7B020C001A6E34 /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406CA89E2B7B020C001A6E34 /* Array+Additions.swift */; };
+		40E288522B8D79A3000D8701 /* AuthenticationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E288512B8D79A3000D8701 /* AuthenticationAdapter.swift */; };
+		40E288552B8D79E8000D8701 /* Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E288542B8D79E8000D8701 /* Instance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		406CA8902B7AF748001A6E34 /* Lottie.xcframework */ = {isa = PBXFileReference; expectedSignature = "SelfSigned:892F1B43047B50538F2F46EAD92900DD3D4811F3582178C061A5FB20F111CB26"; lastKnownFileType = wrapper.xcframework; name = Lottie.xcframework; path = ../Lottie.xcframework; sourceTree = "<group>"; };
 		406CA8942B7AF9D7001A6E34 /* Animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animation.json; sourceTree = "<group>"; };
 		406CA89E2B7B020C001A6E34 /* Array+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
+		40E288512B8D79A3000D8701 /* AuthenticationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationAdapter.swift; sourceTree = "<group>"; };
+		40E288542B8D79E8000D8701 /* Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		406CA8752B7AF630001A6E34 /* BuiltTomPackage */ = {
 			isa = PBXGroup;
 			children = (
+				40E288502B8D7989000D8701 /* Authentication */,
 				406CA8942B7AF9D7001A6E34 /* Animation.json */,
 				406CA8762B7AF630001A6E34 /* BuiltTomPackage.h */,
 				406CA8772B7AF630001A6E34 /* BuiltTomPackage.docc */,
@@ -104,6 +109,15 @@
 				406CA8902B7AF748001A6E34 /* Lottie.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40E288502B8D7989000D8701 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				40E288512B8D79A3000D8701 /* AuthenticationAdapter.swift */,
+				40E288542B8D79E8000D8701 /* Instance.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E288552B8D79E8000D8701 /* Instance.swift in Sources */,
 				406CA89F2B7B020C001A6E34 /* Array+Additions.swift in Sources */,
 				406CA8782B7AF630001A6E34 /* BuiltTomPackage.docc in Sources */,
 				406CA88E2B7AF731001A6E34 /* LottieViewWrapper.swift in Sources */,
+				40E288522B8D79A3000D8701 /* AuthenticationAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

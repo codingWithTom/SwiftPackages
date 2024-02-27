@@ -11,8 +11,9 @@
 		400F108A2B71C16800B817A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F10892B71C16800B817A9 /* ContentView.swift */; };
 		400F108C2B71C16A00B817A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400F108B2B71C16A00B817A9 /* Assets.xcassets */; };
 		400F108F2B71C16A00B817A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400F108E2B71C16A00B817A9 /* Preview Assets.xcassets */; };
-		40A2A1322B7C57EC00A5DA25 /* BuiltTomPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 40A2A1312B7C57EC00A5DA25 /* BuiltTomPackage */; };
-		40A2A1342B7C57EC00A5DA25 /* TomPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 40A2A1332B7C57EC00A5DA25 /* TomPackage */; };
+		40E288582B8D7E8F000D8701 /* BuiltTomPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 40E288572B8D7E8F000D8701 /* BuiltTomPackage */; };
+		40E2885A2B8D7E8F000D8701 /* TomBridge in Frameworks */ = {isa = PBXBuildFile; productRef = 40E288592B8D7E8F000D8701 /* TomBridge */; };
+		40E2885C2B8D7E8F000D8701 /* TomPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 40E2885B2B8D7E8F000D8701 /* TomPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +30,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A2A1342B7C57EC00A5DA25 /* TomPackage in Frameworks */,
-				40A2A1322B7C57EC00A5DA25 /* BuiltTomPackage in Frameworks */,
+				40E2885A2B8D7E8F000D8701 /* TomBridge in Frameworks */,
+				40E2885C2B8D7E8F000D8701 /* TomPackage in Frameworks */,
+				40E288582B8D7E8F000D8701 /* BuiltTomPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +100,9 @@
 			);
 			name = SwiftPackageSample;
 			packageProductDependencies = (
-				40A2A1312B7C57EC00A5DA25 /* BuiltTomPackage */,
-				40A2A1332B7C57EC00A5DA25 /* TomPackage */,
+				40E288572B8D7E8F000D8701 /* BuiltTomPackage */,
+				40E288592B8D7E8F000D8701 /* TomBridge */,
+				40E2885B2B8D7E8F000D8701 /* TomPackage */,
 			);
 			productName = SwiftPackageSample;
 			productReference = 400F10842B71C16800B817A9 /* SwiftPackageSample.app */;
@@ -130,7 +133,7 @@
 			);
 			mainGroup = 400F107B2B71C16800B817A9;
 			packageReferences = (
-				40A2A1302B7C57EC00A5DA25 /* XCLocalSwiftPackageReference "../Binary TomPackage" */,
+				40E288562B8D7E8F000D8701 /* XCLocalSwiftPackageReference "../Binary TomPackage" */,
 			);
 			productRefGroup = 400F10852B71C16800B817A9 /* Products */;
 			projectDirPath = "";
@@ -295,6 +298,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftPackageSample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = com.CodingWithTom.SwiftPackageSample;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -326,6 +330,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftPackageSample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = com.CodingWithTom.SwiftPackageSample;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -371,18 +376,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		40A2A1302B7C57EC00A5DA25 /* XCLocalSwiftPackageReference "../Binary TomPackage" */ = {
+		40E288562B8D7E8F000D8701 /* XCLocalSwiftPackageReference "../Binary TomPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "../Binary TomPackage";
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		40A2A1312B7C57EC00A5DA25 /* BuiltTomPackage */ = {
+		40E288572B8D7E8F000D8701 /* BuiltTomPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BuiltTomPackage;
 		};
-		40A2A1332B7C57EC00A5DA25 /* TomPackage */ = {
+		40E288592B8D7E8F000D8701 /* TomBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TomBridge;
+		};
+		40E2885B2B8D7E8F000D8701 /* TomPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TomPackage;
 		};

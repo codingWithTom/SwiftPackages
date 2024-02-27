@@ -10,6 +10,13 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class BuiltTomPackageInstance {
+  public static var shared: BuiltTomPackage.BuiltTomPackageInstance
+  final public func configure(adapter: any BuiltTomPackage.AuthenticationAdapter)
+  final public func signIn(email: Swift.String, password: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  final public func signUp(email: Swift.String, password: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc deinit
+}
 extension Swift.Array {
   public subscript(safe index: Swift.Int) -> Element? {
     get
@@ -23,3 +30,8 @@ public struct LottieViewWrapper : SwiftUI.View {
   public typealias Body = @_opaqueReturnTypeOf("$s15BuiltTomPackage17LottieViewWrapperV4bodyQrvp", 0) __
 }
 
+public protocol AuthenticationAdapter {
+  func configure()
+  func signIn(email: Swift.String, password: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  func signUp(email: Swift.String, password: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+}
