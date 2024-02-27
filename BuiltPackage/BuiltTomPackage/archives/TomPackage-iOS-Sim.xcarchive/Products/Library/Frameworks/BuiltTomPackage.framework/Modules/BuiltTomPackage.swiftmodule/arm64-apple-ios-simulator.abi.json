@@ -15,6 +15,261 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "BuiltTomPackageInstance",
+        "printedName": "BuiltTomPackageInstance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BuiltTomPackageInstance",
+                "printedName": "BuiltTomPackage.BuiltTomPackageInstance",
+                "usr": "s:15BuiltTomPackage0abC8InstanceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15BuiltTomPackage0abC8InstanceC6sharedACvpZ",
+            "mangledName": "$s15BuiltTomPackage0abC8InstanceC6sharedACvpZ",
+            "moduleName": "BuiltTomPackage",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BuiltTomPackageInstance",
+                    "printedName": "BuiltTomPackage.BuiltTomPackageInstance",
+                    "usr": "s:15BuiltTomPackage0abC8InstanceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15BuiltTomPackage0abC8InstanceC6sharedACvgZ",
+                "mangledName": "$s15BuiltTomPackage0abC8InstanceC6sharedACvgZ",
+                "moduleName": "BuiltTomPackage",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BuiltTomPackageInstance",
+                    "printedName": "BuiltTomPackage.BuiltTomPackageInstance",
+                    "usr": "s:15BuiltTomPackage0abC8InstanceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15BuiltTomPackage0abC8InstanceC6sharedACvsZ",
+                "mangledName": "$s15BuiltTomPackage0abC8InstanceC6sharedACvsZ",
+                "moduleName": "BuiltTomPackage",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15BuiltTomPackage0abC8InstanceC6sharedACvMZ",
+                "mangledName": "$s15BuiltTomPackage0abC8InstanceC6sharedACvMZ",
+                "moduleName": "BuiltTomPackage",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(adapter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationAdapter",
+                "printedName": "BuiltTomPackage.AuthenticationAdapter",
+                "usr": "s:15BuiltTomPackage21AuthenticationAdapterP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15BuiltTomPackage0abC8InstanceC9configure7adapteryAA21AuthenticationAdapter_p_tF",
+            "mangledName": "$s15BuiltTomPackage0abC8InstanceC9configure7adapteryAA21AuthenticationAdapter_p_tF",
+            "moduleName": "BuiltTomPackage",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signIn",
+            "printedName": "signIn(email:password:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15BuiltTomPackage0abC8InstanceC6signIn5email8password10completionySS_SSySbctF",
+            "mangledName": "$s15BuiltTomPackage0abC8InstanceC6signIn5email8password10completionySS_SSySbctF",
+            "moduleName": "BuiltTomPackage",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signUp",
+            "printedName": "signUp(email:password:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15BuiltTomPackage0abC8InstanceC6signUp5email8password10completionySS_SSySbctF",
+            "mangledName": "$s15BuiltTomPackage0abC8InstanceC6signUp5email8password10completionySS_SSySbctF",
+            "moduleName": "BuiltTomPackage",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15BuiltTomPackage0abC8InstanceC",
+        "mangledName": "$s15BuiltTomPackage0abC8InstanceC",
+        "moduleName": "BuiltTomPackage",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BuiltTomPackage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -195,6 +450,153 @@
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BuiltTomPackage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthenticationAdapter",
+        "printedName": "AuthenticationAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15BuiltTomPackage21AuthenticationAdapterP9configureyyF",
+            "mangledName": "$s15BuiltTomPackage21AuthenticationAdapterP9configureyyF",
+            "moduleName": "BuiltTomPackage",
+            "genericSig": "<τ_0_0 where τ_0_0 : BuiltTomPackage.AuthenticationAdapter>",
+            "sugared_genericSig": "<Self where Self : BuiltTomPackage.AuthenticationAdapter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signIn",
+            "printedName": "signIn(email:password:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15BuiltTomPackage21AuthenticationAdapterP6signIn5email8password10completionySS_SSySbctF",
+            "mangledName": "$s15BuiltTomPackage21AuthenticationAdapterP6signIn5email8password10completionySS_SSySbctF",
+            "moduleName": "BuiltTomPackage",
+            "genericSig": "<τ_0_0 where τ_0_0 : BuiltTomPackage.AuthenticationAdapter>",
+            "sugared_genericSig": "<Self where Self : BuiltTomPackage.AuthenticationAdapter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signUp",
+            "printedName": "signUp(email:password:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15BuiltTomPackage21AuthenticationAdapterP6signUp5email8password10completionySS_SSySbctF",
+            "mangledName": "$s15BuiltTomPackage21AuthenticationAdapterP6signUp5email8password10completionySS_SSySbctF",
+            "moduleName": "BuiltTomPackage",
+            "genericSig": "<τ_0_0 where τ_0_0 : BuiltTomPackage.AuthenticationAdapter>",
+            "sugared_genericSig": "<Self where Self : BuiltTomPackage.AuthenticationAdapter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15BuiltTomPackage21AuthenticationAdapterP",
+        "mangledName": "$s15BuiltTomPackage21AuthenticationAdapterP",
+        "moduleName": "BuiltTomPackage",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {

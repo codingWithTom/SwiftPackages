@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import TomBridge
 
 @main
 struct SwiftPackageSampleApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  init() {
+    TomAuthentication.configure()
+  }
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
